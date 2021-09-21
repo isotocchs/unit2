@@ -1,5 +1,8 @@
 package com.columbushs.unit2;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 public class Unit2Main {
 
 	public static void main(String[] args) {
@@ -41,7 +44,7 @@ public class Unit2Main {
 		Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
 		//moreStringStuff.indexingTest();
 		//moreStringStuff.substringTesting();
-		moreStringStuff.lengthAndComparison();
+		//moreStringStuff.lengthAndComparison();
 		
 		Unit2_8ExternalWrapperClasses wrappers = new Unit2_8ExternalWrapperClasses();
 		//wrappers.integerClass();
@@ -50,8 +53,11 @@ public class Unit2Main {
 		Unit2_9MathClass mathStuff = new Unit2_9MathClass();
 		//mathStuff.mathClassTesting();
 		
-		
-		
+		ExtraScannerTesting scanTest = new ExtraScannerTesting();
+		scanTest.inputStuff();
+			
+				
 	}
 
+	
 }
