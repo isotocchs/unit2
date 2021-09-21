@@ -54,7 +54,7 @@ public class Unit2Main {
 		//mathStuff.mathClassTesting();
 		
 		ExtraScannerTesting scanTest = new ExtraScannerTesting();
-		scanTest.inputStuff();
+		//scanTest.inputStuff();
 			
 				
 	}
