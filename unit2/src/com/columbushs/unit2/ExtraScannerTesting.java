@@ -1,8 +1,10 @@
 package com.columbushs.unit2;
 
+import java.util.Scanner;
+
 //Import Scanner
 
-import java.util.Scanner;
+
 
 public class ExtraScannerTesting {
 	

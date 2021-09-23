@@ -5,19 +5,19 @@ public class Unit2_7StringMethods {
 	public void indexingTest() {
 		
 	
-	//String testingMethods1 = new String("applesauce");
+	String testingMethods1 = new String("applesauce");
 	
 	//Strings are an array of chars. Arrays are indexed starting from 0
 	
 	// indexOf method returns the location of where the 
 	//requested element in located in the array in an int
 	
-	//System.out.println(testingMethods1.indexOf("9"));
+	System.out.println(testingMethods1.indexOf("9"));
 	//Why is it that number?
 	
 	//if it doesn't find what you're looking for indexOf will return -1
 	
-	//System.out.println(testingMethods1.indexOf("x"));
+	System.out.println(testingMethods1.indexOf("x"));
 	
 	// indexOf will only return the index number of the first instance.
 	
@@ -27,7 +27,7 @@ public class Unit2_7StringMethods {
 	//second parameter of indexOf is an int that tells you 
 	//after which part in the array to start looking
 	
-	//System.out.println(testingMethods2.indexOf("e",4));
+	System.out.println(testingMethods2.indexOf(" "));
 	
 	
 	//to get all the positions you will need to use loops
@@ -73,11 +73,15 @@ public class Unit2_7StringMethods {
 	String equalsTest1 = "time";
 	String equalsTest2 = "time";
 	String equalsTest3 = new String("time");
-	//boolean areTheyEqual = equalsTest1.equals("time");
+	boolean areTheyEqual = equalsTest1.equals("time");
 	//System.out.println(areTheyEqual);
+	
 	//Different to ==, == checks memory addresses, .equals() checks content.
-	//boolean areTheyEqual2 = equalsTest1.equals(equalsTest3);
+	boolean areTheyEqual2 = equalsTest1.equals(equalsTest3);
 	//System.out.println(areTheyEqual2);
+	
+	boolean areTheyEqual3 = equalsTest1==equalsTest2;
+	//System.out.println(areTheyEqual3);
 	
 	
 	//compareTo returns int
@@ -91,18 +95,18 @@ public class Unit2_7StringMethods {
 	String str3 = "shift";
 	String str4 = "app";
 	String str5 = "apple";
-	//System.out.println(str1.compareTo(str2));
-	//System.out.println(str1.compareTo(str3));
-	//System.out.println(str1.compareTo(str4));
-	//System.out.println(str1.compareTo(str5));
+	System.out.println(str1.compareTo(str2));
+	System.out.println(str1.compareTo(str3));
+	System.out.println(str1.compareTo(str4));
+	System.out.println(str1.compareTo(str5));
 //	
-	String ret1 = str1.substring(0,2);
-	String ret2 = str3.substring(str3.length()-1);
-	String result = ret2+ret1;
-	System.out.println(ret1);
-	System.out.println(ret2);
-	System.out.println(result);
-	System.out.println(result.indexOf(ret2));
+//	String ret1 = str1.substring(0,2);
+//	String ret2 = str3.substring(str3.length()-1);
+//	String result = ret2+ret1;
+//	System.out.println(ret1);
+//	System.out.println(ret2);
+//	System.out.println(result);
+//	System.out.println(result.indexOf(ret2));
 	
 	
 	}
