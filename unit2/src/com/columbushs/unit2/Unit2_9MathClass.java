@@ -27,24 +27,28 @@ public class Unit2_9MathClass {
 		//double randomNum = Math.random();
 		//System.out.println(randomNum);
 		//multiply by 10 and make an int to get random number from 1-10
-		double rand10 = Math.random()*10;
-		//System.out.println((int)rand10);
+		double rand = Math.random();
+		double rand10 = (int)rand*10;
+		double rand100 = (int)rand*100;
+		System.out.println(rand);
+		System.out.println(rand10);
+		System.out.println(rand100);
 		//same thing for 100, etc
-		double rand100 = Math.random()*100;
-		//System.out.println((int)rand100);
+		double rand100Other = Math.random()*100;
+		System.out.println((int)rand100Other);
 		
 		
 		//importing stuff, why? so you don't have to use the prefix all the time.
 		//import static java.lang.Math.*;
 		
 	double absolute3 = abs(absolute1*-12);
-		System.out.println(absolute3);
+		//System.out.println(absolute3);
 		
 		double randomNum2 = random();
-		System.out.println(randomNum2);
+		//System.out.println(randomNum2);
 		
 		double squareRoot2 = sqrt(64);
-		System.out.println(squareRoot);
+		//System.out.println(squareRoot);
 		
 	}
 

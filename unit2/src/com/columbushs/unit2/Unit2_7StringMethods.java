@@ -65,8 +65,8 @@ public class Unit2_7StringMethods {
 	public void lengthAndComparison() {
 		
 	//length method returns an int with the length of your string
-	//String lengthTest = "I hate black cats";
-	//System.out.println(lengthTest.length());
+	String lengthTest = "I hate black cats";
+	System.out.println(lengthTest.length());
 	//very useful for loops when going from the beginning to the end of something
 	//length starts at 1 not 0 like array index
 	

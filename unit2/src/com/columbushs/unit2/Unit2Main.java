@@ -51,10 +51,10 @@ public class Unit2Main {
 		//wrappers.doubleClass();
 		
 		Unit2_9MathClass mathStuff = new Unit2_9MathClass();
-		//mathStuff.mathClassTesting();
+		mathStuff.mathClassTesting();
 		
 		ExtraScannerTesting scanTest = new ExtraScannerTesting();
-		scanTest.inputStuff();
+		//scanTest.inputStuff();
 			
 				
 	}
