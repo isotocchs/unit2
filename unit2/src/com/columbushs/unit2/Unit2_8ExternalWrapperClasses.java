@@ -7,13 +7,13 @@ public class Unit2_8ExternalWrapperClasses {
 	
 	//primitive data type
 	int x = 12;
-	System.out.println(x);
+	//System.out.println(x);
 	
 	//Integer object, wrapper class
 	Integer intObject = new Integer(157);
 	System.out.println(intObject);
-	System.out.println(intObject.compareTo(159)); //1 if lower, 0 if the same, -1 if higher
-	System.out.println(intObject.intValue());
+	System.out.println(intObject.compareTo(157)); //1 if lower, 0 if the same, -1 if higher
+	System.out.println(intObject.equals(123));
 	
 	//get a primitive from the object.
 	int backToInt = intObject.intValue();
@@ -33,7 +33,7 @@ public class Unit2_8ExternalWrapperClasses {
 		//Double object, wrapper class
 		Double doubleObject = new Double(45.23);
 		System.out.println(doubleObject);
-		System.out.println(doubleObject.equals(23.5));
+		System.out.println(doubleObject.equals(45.23));
 		
 		//get a primitive from the object.
 		double backToDouble = doubleObject.doubleValue();

@@ -1,5 +1,8 @@
 package com.columbushs.unit2;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 public class Unit2Main {
 
 	public static void main(String[] args) {
@@ -27,7 +30,7 @@ public class Unit2Main {
 	    //Have to create a variable to store the return
 		//The variable you create to store your return must be the same
 		//type as the return
-		//double average = averages.averageClac(3,7,4,5,8,3,9,12);
+		//double average = averages.averageClac(3,7);
 		//if you put in ints they will be cast as double since 
 		//the method accepts doubles
 		//System.out.println(average);
@@ -36,7 +39,7 @@ public class Unit2Main {
 		Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
 		//stringStuff.litteralsAndObjectStrings();
 		//stringStuff.concatinatingStrings();
-		stringStuff.escapeSequences();
+		//stringStuff.escapeSequences();
 		
 		Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
 		//moreStringStuff.indexingTest();
@@ -48,10 +51,13 @@ public class Unit2Main {
 		//wrappers.doubleClass();
 		
 		Unit2_9MathClass mathStuff = new Unit2_9MathClass();
-		//mathStuff.mathClassTesting();
+		mathStuff.mathClassTesting();
 		
-		
-		
+		ExtraScannerTesting scanTest = new ExtraScannerTesting();
+		//scanTest.inputStuff();
+			
+				
 	}
 
+	
 }
