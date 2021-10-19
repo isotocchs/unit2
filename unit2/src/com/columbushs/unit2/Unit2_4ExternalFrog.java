@@ -7,9 +7,10 @@ public class Unit2_4ExternalFrog {
 	//a class that prints out the frog's movements given the
 	//inputs.
 	
-	public void frog(int hops) {
-		
+	public double frog(int hops) {
+		double apple=23.5*hops;
 		System.out.println("The frog has moved forward "+hops+" hops.");
+		return apple;
 		
 	}
 	

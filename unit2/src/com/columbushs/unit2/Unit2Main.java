@@ -25,15 +25,17 @@ public class Unit2Main {
 		//frogInstance.frog();
 //		frogInstance.frog(13);
 		//frogInstance.frog("left", 3);
+		//double frogApple = frogInstance.frog(5);
+		//System.out.println(frogApple);
 		
 		Unit2_5ExternalAverages averages = new Unit2_5ExternalAverages();
 	    //Have to create a variable to store the return
 		//The variable you create to store your return must be the same
 		//type as the return
-		//double average = averages.averageClac(3,7);
+		double answer = averages.averageClac(3,7);
 		//if you put in ints they will be cast as double since 
 		//the method accepts doubles
-		//System.out.println(average);
+		System.out.println(answer);
 		
 		
 		Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
@@ -51,10 +53,10 @@ public class Unit2Main {
 		//wrappers.doubleClass();
 		
 		Unit2_9MathClass mathStuff = new Unit2_9MathClass();
-		mathStuff.mathClassTesting();
+		//mathStuff.mathClassTesting();
 		
 		ExtraScannerTesting scanTest = new ExtraScannerTesting();
-		//scanTest.inputStuff();
+		scanTest.inputStuff();
 			
 				
 	}

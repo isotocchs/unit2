@@ -4,6 +4,8 @@ public class Unit2_5ExternalAverages {
 	
 	//crate method that takes in two numbers, calculates average and
 	//returns a double 
+	
+	private int classVarialbe = 100;
 	public double averageClac(double num1, double num2) {
 		//crate variable to store the result
 		double average = (num1+num2)/2;
